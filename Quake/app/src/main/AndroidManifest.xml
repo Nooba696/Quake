@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ibm.mobileappbuilder.quake20160930102313" >
+
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme"
+        android:name=".MyApplication">
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyA2rdQb2bdGFJBFM3v8qgQAt-XJEMp1HJw"/>
+        <activity android:name="com.ibm.mobileappbuilder.quake20160930102313.ui.QuakeDataCloudDSSchemaItemFormActivity"
+            android:label="@string/quakeDataCloudDSSchemaItemFormActivity"
+        />
+        <activity android:name="com.ibm.mobileappbuilder.quake20160930102313.ui.QuakeMain"
+            android:label="@string/quakeMain"
+            android:theme="@style/AppTheme.Drawer">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+      </activity>
+        <activity android:name="com.ibm.mobileappbuilder.quake20160930102313.ui.QuakeMainActivity"
+            android:label="@string/quakeMainActivity"
+        />
+        <activity android:name="com.ibm.mobileappbuilder.quake20160930102313.ui.QuakeMapListActivity"
+            android:label="@string/quakeMapListActivity"
+        />
+        <activity android:name="com.worklight.wlclient.ui.UIActivity"/>
+    </application>
+
+</manifest>

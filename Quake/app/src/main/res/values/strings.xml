@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<resources>
+
+    <string name="app_name">Quake</string>
+
+    <!-- Activity Titles -->
+    <string formatted="false" name="quakeDataCloudDSSchemaItemFormActivity"></string>
+    <string formatted="false" name="quakeMain">Quake</string>
+    <string formatted="false" name="quakeMainActivity">QuakeMain</string>
+    <string formatted="false" name="quakeMapListActivity">QuakeMapList</string>
+</resources>
+
+
